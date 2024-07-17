@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MY TODOS</h1>
+        <div class="d-none" id="container">
+            <p id="error">✅Task added....</p>
+        </div>
+        <input type="text" placeholder="Enter Task" class="value" id="input">
+        <button class="btn" onclick="task()">ADD TASK</button>
+    </div>
+    <div class="list-items" id="itemsContainer"></div>
+    <script src="app.js"></script>
+</body>
+</html>
